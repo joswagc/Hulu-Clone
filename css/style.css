@@ -148,19 +148,19 @@ h4 {
 }
 
 .header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 180px;
-    z-index: 1;
-    background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.76) 15.54%,
-      rgba(0, 0, 0, 0.192) 60.23%,
-      rgba(0, 0, 0, 8e-5) 100%
-    );
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.76) 15.54%,
+    rgba(0, 0, 0, 0.192) 60.23%,
+    rgba(0, 0, 0, 8e-5) 100%
+  );
 }
 
 /* Sub Header */
@@ -212,12 +212,12 @@ h4 {
 }
 
 .categories .cover-grad {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
       156.82deg,
       rgba(0, 0, 0, 0.6) 4.58%,
       rgba(0, 0, 0, 0) 69.61%
@@ -226,10 +226,10 @@ h4 {
 }
 
 .categories .cover-text {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    text-align: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
 }
 
 /*Galeria de imagenes*/
@@ -251,9 +251,9 @@ h4 {
 
 /*media query*/
 @media (max-width: 1100px) {
-    .categories .covers {
-        grid-template-columns: 1fr 1fr;
-    }
+  .categories .covers {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -296,10 +296,10 @@ h4 {
   }
 
   .sub-text {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .categories .covers {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
